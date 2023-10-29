@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: adventureworks-gcp
+    database: plated-planet-402713 # gcp project id
+    schema: raw # gcp dataset
+    description: Tabelas de origem GCP database AdventureWorks
+    tables:
+      - name: product
