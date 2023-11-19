@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: dbt_dev
+    database: plated-planet-402713
+    schema: bronze_dev
+    tables:
+      - name: tb_vendas
+
+
+
+
+
